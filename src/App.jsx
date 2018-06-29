@@ -9,12 +9,14 @@ import Merchandise from './Components/Merchandise';
 import Training from './Components/Training';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 class App extends Component {
   render() {
     return (
         <Router>
           <div className="App">
+            <Navbar />
             <Route exact path="/" component={Home} />
             <Route exact path="/" component={About} />
             <Route exact path="/" component={Videos} />
