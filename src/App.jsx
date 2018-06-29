@@ -9,7 +9,7 @@ import Merchandise from './Components/Merchandise';
 import Training from './Components/Training';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/CustomNavbar';
 
 class App extends Component {
   render() {
