@@ -7,9 +7,8 @@ class Home extends Component {
     render() {
         return (
             <Grid>
-                <Jumbotron>
-                    <h2> Intro </h2>
-                </Jumbotron>
+                <h1>Holistic</h1>
+
             </Grid>
         );
     }

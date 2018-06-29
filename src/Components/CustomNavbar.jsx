@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default class CustomNavbar extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect fixedTop inverse fluid>
+            <Navbar collapseOnSelect inverse fluid>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/">Holistic Bodies </Link>
