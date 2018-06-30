@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import  {Grid, Row, Col, Image, Button, ListGroup, ListGroupItem, Nav, NavItem} from 'react-bootstrap';
+import  {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
 import './Home.css';
 import ReactPlayer from 'react-player';
 
@@ -25,18 +25,18 @@ class Home extends Component {
                     <Col xs={3} />
                     <Col xs={6} className="Menu-items">
                         <Nav bsStyle="pills" justified className="Items">
-                            <NavItem eventKey={1} className="item_1">About</NavItem>
-                            <NavItem eventKey={2} className="item_2">Videos</NavItem>
-                            <NavItem eventKey={3} className="item_3">Blog</NavItem>
-                            <NavItem eventKey={4} className="item_4">Merchandise</NavItem>
-                            <NavItem eventKey={5} className="item_5">Training</NavItem>
-                            <NavItem eventKey={6} className="item_6">Subscribe</NavItem>
+                            <NavItem eventKey={1} className="item_1" href="#">About</NavItem>
+                            <NavItem eventKey={2} className="item_2" href="#">Videos</NavItem>
+                            <NavItem eventKey={3} className="item_3" href="#">Blog</NavItem>
+                            <NavItem eventKey={4} className="item_4" href="#">Merchandise</NavItem>
+                            <NavItem eventKey={5} className="item_5" href="#">Training</NavItem>
+                            <NavItem eventKey={6} className="item_6" href="#">Subscribe</NavItem>
                         </Nav>
                         <Col xs={3} />
                     </Col>
                 </Row>
                 <hr />
-                <Row>
+                <Row className="show-grid text-center Video-row">
                     <Col xs={1} />
                     <Col xs={10} className="Video-wrapper">
                         <ReactPlayer
@@ -44,13 +44,10 @@ class Home extends Component {
                         url="assests/intro.mp4"
                         width="100%"
                         height="100%"
-                        controls
-                        />
-
+                        controls />
                     </Col>
                     <Col xs={1}/>
                 </Row>
-
             </Grid>
         );
     }
