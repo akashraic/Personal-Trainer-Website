@@ -10,11 +10,11 @@ class Merchandise extends Component {
                 <h1>Merchandise</h1>
                 <Grid>
                     <Row className="Description-wrapper">
-                        <Col md={4} />
-                        <Col className="Description" md={4}>
-                            <p>Click on the button below to view some of my Merchandise</p>
+                        <Col md={3} />
+                        <Col className="Description" md={6}>
+                            <p className="Video-description">Click on the button below to view some of my Merchandise</p>
                         </Col>
-                        <Col md={4} />
+                        <Col md={3} />
                     </Row>
                     <Row className="Button-wrapper-wrap">
                         <Col md={3}/>
