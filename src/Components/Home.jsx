@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import  {Grid, Row, Col, Image, Button, ListGroup, ListGroupItem, Nav, NavItem} from 'react-bootstrap';
 import './Home.css';
+import ReactPlayer from 'react-player';
 
 class Home extends Component {
     render() {
@@ -35,6 +36,21 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <hr />
+                <Row>
+                    <Col xs={1} />
+                    <Col xs={10} className="Video-wrapper">
+                        <ReactPlayer
+                        className="player"
+                        url="assests/intro.mp4"
+                        width="100%"
+                        height="100%"
+                        controls
+                        />
+
+                    </Col>
+                    <Col xs={1}/>
+                </Row>
+
             </Grid>
         );
     }
