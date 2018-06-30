@@ -1,3 +1,7 @@
+.show-grid, .text-center, .Heading
+{
+    align: center;
+}
 h1
 {
     position: relative;
@@ -15,14 +19,29 @@ h1
     right: 35%;
 }
 
-.Logo-wrapper
-{
-
-}
 
 .logo
 {
     width: 70%;
 }
+
+.Menu-items
+{
+
+}
+
+.Items
+{
+    padding-top: 2%;
+    list-style: none;
+}
+
+li
+{
+    font-size: 18px;
+    display: inline-block;
+}
+
+
 
 

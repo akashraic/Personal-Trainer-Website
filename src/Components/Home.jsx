@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import  {Grid, Row, Col, Image, Button} from 'react-bootstrap';
+import  {Grid, Row, Col, Image, Button, ListGroup, ListGroupItem, Nav, NavItem} from 'react-bootstrap';
 import './Home.css';
 
 class Home extends Component {
@@ -20,15 +20,18 @@ class Home extends Component {
                     </Col>
                     <Col xs={3} />
                 </Row>
-                <Row className="show-grid text-center Menu">
-                    <Col xs={2} />
-                    <Col className="Items">
-                        <h6>About</h6>
-                        <h6>Videos</h6>
-                        <h6>Blog</h6>
-                        <h6>Merchandise</h6>
-                        <h6>Training</h6>
-                        <h6>Subscribe</h6>
+                <Row className="show-grid text-center Menu-row">
+                    <Col xs={3} />
+                    <Col xs={6} className="Menu-items">
+                        <Nav bsStyle="pills" justified className="Items">
+                            <NavItem eventKey={1} className="item_1">About</NavItem>
+                            <NavItem eventKey={2} className="item_2">Videos</NavItem>
+                            <NavItem eventKey={3} className="item_3">Blog</NavItem>
+                            <NavItem eventKey={4} className="item_4">Merchandise</NavItem>
+                            <NavItem eventKey={5} className="item_5">Training</NavItem>
+                            <NavItem eventKey={6} className="item_6">Subscribe</NavItem>
+                        </Nav>
+                        <Col xs={3} />
                     </Col>
                 </Row>
                 <hr />
