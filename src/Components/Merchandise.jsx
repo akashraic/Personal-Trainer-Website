@@ -17,14 +17,14 @@ class Merchandise extends Component {
                         <Col md={3} />
                     </Row>
                     <Row className="Button-wrapper-wrap">
-                        <Col md={3}/>
-                        <Col md={6} className="Button-wrapper">
-                            <Button block>
-                                Continue to Store
-                            </Button>
-                        </Col>
-                        <Col md={3}/>
-                    </Row>
+                    <Col md={3}/>
+                    <Col md={6} className="Button-wrapper">
+                        <Button block>
+                            Continue to Store
+                        </Button>
+                    </Col>
+                    <Col md={3}/>
+                </Row>
                 </Grid>
 
             </div>
