@@ -10,6 +10,11 @@ import Training from './Components/Training';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
 import Navbar from './Components/CustomNavbar';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram} from '@fortawesome/free-brands-svg-icons';
+
+library.add(faInstagram);
 
 class App extends Component {
   render() {
