@@ -19,18 +19,17 @@ library.add(faInstagram);
 class App extends Component {
   render() {
     return (
-        <Router>
           <div className="App">
-            <Route exact path="/" component={Home} />
-            <Route exact path="/" component={About} />
-            <Route exact path="/" component={Videos} />
-            <Route exact path="/" component={Blog} />
-            <Route exact path="/" component={Merchandise} />
-            <Route exact path="/" component={Training} />
-            <Route exact path="/" component={Subscribe} />
-            <Route exact path="/" component={Footer} />
+            <Home className="section1"/>
+            <About/>
+            <Videos/>
+            <Blog/>
+            <Merchandise/>
+            <Training/>
+            <Subscribe/>
+            <Footer className="section6"/>
           </div>
-        </Router>
+
     );
   }
 }
