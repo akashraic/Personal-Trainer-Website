@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import  {Grid, Row, Col, Button} from 'react-bootstrap';
+import  {Grid, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faSnapchat} from '@fortawesome/free-brands-svg-icons';

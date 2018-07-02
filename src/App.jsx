@@ -9,7 +9,6 @@ import Training from './Components/Training';
 import Subscribe from './Components/Subscribe';
 import Footer from './Components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 library.add(faInstagram);
@@ -18,14 +17,14 @@ class App extends Component {
   render() {
     return (
           <div className="App">
-            <Home className="section1"/>
-            <About/>
-            <Videos/>
-            <Blog/>
-            <Merchandise/>
-            <Training/>
-            <Subscribe/>
-            <Footer className="section6"/>
+            <Home className="Home"/>
+            <About className="About"/>
+            <Videos className="Videos"/>
+            <Blog className="Blog"/>
+            <Merchandise className="Merchandise"/>
+            <Training className="Training"/>
+            <Subscribe className="Subscribe"/>
+            <Footer className="Footer"/>
           </div>
 
     );
