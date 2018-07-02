@@ -16,7 +16,8 @@ class Subscribe extends Component {
                         <Col md={3} />
                     </Row>
                     <Row className="Field-wrapper-wrap">
-                        <Col className="Form-Wrapper" md={12}>
+                        <Col md={1} />
+                        <Col className="Form-Wrapper" md={10}>
                             <Form inline>
                                 <FormGroup controlId="formFirstName">
                                     <ControlLabel>First Name</ControlLabel>{' '}
@@ -33,6 +34,7 @@ class Subscribe extends Component {
                                 <Button type="submit">Subscribe</Button>
                             </Form>
                         </Col>
+                        <Col md={1} />
                     </Row>
                 </Grid>
 

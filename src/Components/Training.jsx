@@ -4,13 +4,6 @@ import  {Grid, Row, Col, Button} from 'react-bootstrap';
 import './Training.css';
 
 class Training extends Component {
-    constructor(props, context) {
-        super(props, context);
-
-        this.state = {
-            open: false
-        };
-    }
     render() {
         return (
 

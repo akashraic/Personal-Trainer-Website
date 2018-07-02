@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import {BrowserRouter as Router ,Route} from 'react-router-dom';
 
 export default class CustomNavbar extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect inverse fluid>
+            <Router>
+            <Navbar collapseOnSelect inverse fluid fixedTop>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/">Holistic Bodies </Link>
@@ -41,6 +43,7 @@ export default class CustomNavbar extends Component {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+            </Router>
         );
     }
 }

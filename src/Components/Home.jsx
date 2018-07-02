@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
 import  {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
+import Navbar from './CustomNavbar';
 import './Home.css';
 import ReactPlayer from 'react-player';
 import { goToAnchor } from 'react-scrollable-anchor'
@@ -28,14 +29,14 @@ class Home extends Component {
                     <Col md={2} />
                     <Col md={8} className="Menu-items">
                         <Nav bsStyle="pills" justified className="Items" >
-                            <NavItem eventKey={1} className="item_6" onClick={goToAnchor('Home')}>Home</NavItem>
-                            <NavItem eventKey={2} className="item_1" onClick={goToAnchor('About')}>About</NavItem>
-                            <NavItem eventKey={3} className="item_2" onClick={goToAnchor('Videos')}>Videos</NavItem>
-                            <NavItem eventKey={4} className="item_3" onClick={goToAnchor('Blog')}>Blog</NavItem>
-                            <NavItem eventKey={5} className="item_4" onClick={goToAnchor('Merchandise')}>Merchandise</NavItem>
-                            <NavItem eventKey={6} className="item_5" onClick={goToAnchor('Training')}>Training</NavItem>
-                            <NavItem eventKey={7} className="item_6" onClick={goToAnchor('Subscribe')}>Subscribe</NavItem>
-                            <NavItem eventKey={8} className="item_6" onClick={goToAnchor('Contact')}>Contact</NavItem>
+                            <NavItem eventKey={1} className="item_1" onClick={goToAnchor('Home')}>Home</NavItem>
+                            <NavItem eventKey={2} className="item_2" onClick={goToAnchor('About')}>About</NavItem>
+                            <NavItem eventKey={3} className="item_3" onClick={goToAnchor('Videos')}>Videos</NavItem>
+                            <NavItem eventKey={4} className="item_4" onClick={goToAnchor('Blog')}>Blog</NavItem>
+                            <NavItem eventKey={5} className="item_5" onClick={goToAnchor('Merchandise')}>Merchandise</NavItem>
+                            <NavItem eventKey={6} className="item_6" onClick={goToAnchor('Training')}>Training</NavItem>
+                            <NavItem eventKey={7} className="item_7" onClick={goToAnchor('Subscribe')}>Subscribe</NavItem>
+                            <NavItem eventKey={8} className="item_8" onClick={goToAnchor('Contact')}>Contact</NavItem>
 
                         </Nav>
                         <Col md={2} />
