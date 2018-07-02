@@ -11,16 +11,16 @@ class Blog extends Component {
                 <h1>Blog</h1>
                 <Grid>
                     <Row className="Description-wrapper">
-                        <Col md={4} />
-                        <Col className="Description" md={4}>
+                        <Col md={3} />
+                        <Col className="Description" md={6}>
                             <p>Click on the button below to view some of my blogs</p>
                         </Col>
-                        <Col md={4} />
+                        <Col md={3} />
                     </Row>
                     <Row className="Button-wrapper-wrap">
                         <Col md={3}/>
                         <Col md={6} className="Button-wrapper">
-                            <Button block>
+                            <Button className="Btn" block>
                                 Continue to Blog
                             </Button>
                         </Col>
