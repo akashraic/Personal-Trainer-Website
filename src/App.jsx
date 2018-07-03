@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -13,18 +15,23 @@ import { faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 library.add(faInstagram);
 
+componentDidMount()
+{
+    
+}
+
 class App extends Component {
   render() {
     return (
           <div className="App">
-            <Home className="Home"/>
-            <About className="About"/>
-            <Videos className="Videos"/>
-            <Blog className="Blog"/>
-            <Merchandise className="Merchandise"/>
-            <Training className="Training"/>
-            <Subscribe className="Subscribe"/>
-            <Footer className="Footer"/>
+              <ScrollableAnchor id="Home"><div><Home/></div></ScrollableAnchor>
+              <ScrollableAnchor id="About"><div><About /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Videos"><div><Videos /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Blog"><div><Blog /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Merchandise"><div><Merchandise /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Training"><div><Training /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Subscribe"><div><Subscribe /></div></ScrollableAnchor>
+              <ScrollableAnchor id="Footer"><div><Footer /></div></ScrollableAnchor>
           </div>
 
     );

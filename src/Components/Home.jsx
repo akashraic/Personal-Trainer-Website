@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
+import Scrollchor from 'react-scrollchor';
 import  {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
 import Navbar from './CustomNavbar';
 import './Home.css';
@@ -29,14 +30,14 @@ class Home extends Component {
                     <Col md={2} />
                     <Col md={8} className="Menu-items">
                         <Nav bsStyle="pills" justified className="Items" >
-                            <NavItem eventKey={1} className="item_1" href="/Home" >Home</NavItem>
-                            <NavItem eventKey={2} className="item_2" href="/About" >About</NavItem>
-                            <NavItem eventKey={3} className="item_3" href="/Videos" >Videos</NavItem>
-                            <NavItem eventKey={4} className="item_4" href="/Blog" >Blog</NavItem>
-                            <NavItem eventKey={5} className="item_5" href="/Merchandise">Merchandise</NavItem>
-                            <NavItem eventKey={6} className="item_6" href="/Training">Training</NavItem>
-                            <NavItem eventKey={7} className="item_7" href="/Subscribe" >Subscribe</NavItem>
-                            <NavItem eventKey={8} className="item_8" href="/Footer" >Contact</NavItem>
+                            <NavItem eventKey={1} className="nav-link" href="#Home" >Home</NavItem>
+                            <NavItem eventKey={2} className="nav-link" href="#About" >About</NavItem>
+                            <NavItem eventKey={3} className="nav-link" href="#Videos" >Videos</NavItem>
+                            <NavItem eventKey={4} className="nav-link" href="#Blog" >Blog</NavItem>
+                            <NavItem eventKey={5} className="nav-link" href="#Merchandise">Merchandise</NavItem>
+                            <NavItem eventKey={6} className="nav-link" href="#Training">Training</NavItem>
+                            <NavItem eventKey={7} className="nav-link" href="#Subscribe" >Subscribe</NavItem>
+                            <NavItem eventKey={8} className="nav-link" href="#Footer" >Contact</NavItem>
 
                         </Nav>
                         <Col md={2} />
