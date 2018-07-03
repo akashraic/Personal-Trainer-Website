@@ -22,6 +22,12 @@ library.add(faInstagram);
 class App extends Component {
   render() {
       return <div className="App">
+
+
+          <ScrollableAnchor id="Home">
+              <div><Home/></div>
+          </ScrollableAnchor>
+
           <Headroom
               onPin={() => console.log('pinned')}
               onUnpin={() => console.log('unpinned')}
@@ -31,10 +37,6 @@ class App extends Component {
           >
               <div><Navbar/></div>
           </Headroom>
-
-          <ScrollableAnchor id="Home">
-              <div><Home/></div>
-          </ScrollableAnchor>
 
           <ScrollableAnchor id="About">
               <div><About/></div>
