@@ -19,7 +19,7 @@ class Footer extends Component {
                     </Row>
                     <Row>
                         <Col md={4} />
-                        <Col md={4} classNamw="Social-media">
+                        <Col md={4} className="Social-media">
                             <a href="#"><FontAwesomeIcon className="instant" icon={faInstagram} color="black"/></a>
                             <a href="#"><FontAwesomeIcon className="snap" icon={faSnapchat} color="black"/></a>
                         </Col>

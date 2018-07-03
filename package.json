@@ -14,11 +14,13 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
     "react-fontawesome": "^1.6.1",
+    "react-headroom": "^2.2.2",
     "react-player": "^1.6.4",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-scrollable-anchor": "^0.6.1",
-    "react-scrollchor": "^5.1.0"
+    "react-scrollchor": "^5.1.0",
+    "react-slide-menu": "^0.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

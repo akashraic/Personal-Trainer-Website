@@ -5,11 +5,17 @@ import  {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
 import Navbar from './CustomNavbar';
 import './Home.css';
 import ReactPlayer from 'react-player';
-import { goToAnchor } from 'react-scrollable-anchor'
+import {configureAnchors, goToTop, removeHash} from 'react-scrollable-anchor'
+
 
 
 
 class Home extends Component {
+    componentWillMount()
+    {
+        removeHash();
+        goToTop();
+    }
     render() {
         return (
             <Grid>
@@ -38,7 +44,6 @@ class Home extends Component {
                             <NavItem eventKey={6} className="nav-link" href="#Training">Training</NavItem>
                             <NavItem eventKey={7} className="nav-link" href="#Subscribe" >Subscribe</NavItem>
                             <NavItem eventKey={8} className="nav-link" href="#Footer" >Contact</NavItem>
-
                         </Nav>
                         <Col md={2} />
                     </Col>
