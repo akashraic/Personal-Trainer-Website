@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
-import  {Grid, Row, Col, Button} from 'react-bootstrap';
+import {Grid, Row, Col, Button, ResponsiveEmbed} from 'react-bootstrap';
 import './Blog.css';
 
 class Blog extends Component {
@@ -10,6 +10,13 @@ class Blog extends Component {
             <div className="Blog">
                 <h1>Blog</h1>
                 <Grid>
+                    <Row className="Blog-wrapper-wrap">
+                        <Col md={12} className="Blog-wrapper">
+                            <ResponsiveEmbed a16by9 className="Blg">
+                                <embed src="https://muztank10.blogspot.com/" />
+                            </ResponsiveEmbed>
+                        </Col>
+                    </Row>
                     <Row className="Description-wrapper">
                         <Col md={3} />
                         <Col className="Description" md={6}>

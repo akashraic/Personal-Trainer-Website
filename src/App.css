@@ -2,16 +2,15 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
 
 }
 .headroom--unfixed {
     position: relative;
-    transform: translateY(-100%);
 }
 .headroom--scrolled {
     transition: transform 200ms ease-out;
-    transform: translateY(-100%);
 }
 .headroom--unpinned {
     position: fixed;
@@ -19,12 +18,17 @@
 }
 .headroom--pinned {
     position: fixed;
-    transform: translateY(0);
+    transform: translateY(-100%);
+
+
+
 }
 
-@media screen and (min-height: 0px) and (max-height: 150px) {
+@media screen and (min-height: 0px) and (max-height: 300px) {
 
 .headroom{
-    visibility: hidden;
+    display:none
+
+;
 }
 }

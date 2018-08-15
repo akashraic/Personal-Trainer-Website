@@ -28,6 +28,10 @@ class App extends Component {
               <div><Home/></div>
           </ScrollableAnchor>
 
+          <ScrollableAnchor id="About">
+              <div><About/></div>
+          </ScrollableAnchor>
+
           <Headroom
               onPin={() => console.log('pinned')}
               onUnpin={() => console.log('unpinned')}
@@ -37,10 +41,6 @@ class App extends Component {
           >
               <div><Navbar/></div>
           </Headroom>
-
-          <ScrollableAnchor id="About">
-              <div><About/></div>
-          </ScrollableAnchor>
 
           <ScrollableAnchor id="Videos">
               <div><Videos/></div>
