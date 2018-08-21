@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import  {Grid, Row, Col, Button} from 'react-bootstrap';
+import {Grid, Row, Col, Button, Collapse} from 'react-bootstrap';
 import './Training.css';
 
 class Training extends Component {
+    constructor(props, context) {
+        super(props,context);
+
+        this.state = {
+            open:false
+        };
+    }
     render() {
         return (
 
@@ -21,9 +28,18 @@ class Training extends Component {
                     <Row className="Button-wrapper-wrap">
                         <Col md={3}/>
                         <Col md={6} className="Button-wrapper">
-                            <Button block>
+                            <Button block onClick={() => this.setState({open: !this.state.open})}>
                                 View packages
                             </Button>
+                            <Collapse in={this.state.open}>
+                                <div className="packages">
+                                    <well>
+                                      <table>
+                                          
+                                      </table>
+                                    </well>
+                                </div>
+                            </Collapse>
                         </Col>
                         <Col md={3}/>
                     </Row>

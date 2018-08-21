@@ -3,6 +3,7 @@ import  {Grid, Row, Col, Button, Form, FormGroup, ControlLabel, FormControl} fro
 import './Subscribe.css';
 
 class Subscribe extends Component {
+
     render() {
         return (
             <div className="Subscribe">
