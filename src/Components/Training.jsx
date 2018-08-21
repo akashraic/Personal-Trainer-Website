@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {Grid, Row, Col, Button, Collapse} from 'react-bootstrap';
+import {Grid, Row, Col, Button, Collapse, Well} from 'react-bootstrap';
 import './Training.css';
+import Table from "react-bootstrap/es/Table";
 
 class Training extends Component {
     constructor(props, context) {
@@ -33,11 +34,16 @@ class Training extends Component {
                             </Button>
                             <Collapse in={this.state.open}>
                                 <div className="packages">
-                                    <well>
-                                      <table>
-                                          
-                                      </table>
-                                    </well>
+                                    <Well>
+                                      <Table responsive striped bordered condense>
+                                            <thead>
+
+                                            </thead>
+                                            <tbody>
+
+                                            </tbody>
+                                      </Table>
+                                    </Well>
                                 </div>
                             </Collapse>
                         </Col>
