@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {Grid, Row, Col, Button, Collapse, Well} from 'react-bootstrap';
+import {Grid, Row, Col, Button, Collapse, Well, PanelGroup, Panel} from 'react-bootstrap';
 import './Training.css';
 import Table from "react-bootstrap/es/Table";
 
 class Training extends Component {
-    constructor(props, context) {
-        super(props,context);
-
-        this.state = {
-            open:false
-        };
-    }
     render() {
         return (
 
@@ -27,27 +20,63 @@ class Training extends Component {
                         <Col md={3} />
                     </Row>
                     <Row className="Button-wrapper-wrap">
-                        <Col md={3}/>
-                        <Col md={6} className="Button-wrapper">
-                            <Button block onClick={() => this.setState({open: !this.state.open})}>
-                                View packages
-                            </Button>
-                            <Collapse in={this.state.open}>
-                                <div className="packages">
-                                    <Well>
-                                      <Table responsive striped bordered condense>
-                                            <thead>
+                        <Col md={2}/>
+                        <Col md={8} className="Panel-wrapper">
+                            <PanelGroup
+                                accordion
+                                id="accordion-example">
 
-                                            </thead>
-                                            <tbody>
-
-                                            </tbody>
-                                      </Table>
-                                    </Well>
-                                </div>
-                            </Collapse>
+                                <Panel eventKey="1">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle>Collapsible Group Item #1</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </Panel.Body>
+                                </Panel>
+                                <Panel eventKey="2">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle>Collapsible Group Item #2</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </Panel.Body>
+                                </Panel>
+                                <Panel eventKey="3">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle>Collapsible Group Item #3</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                        labore sustainable VHS.
+                                    </Panel.Body>
+                                </Panel>
+                            </PanelGroup>
                         </Col>
-                        <Col md={3}/>
+                        <Col md={2}/>
                     </Row>
                 </Grid>
             </div>
