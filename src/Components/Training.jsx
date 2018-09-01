@@ -20,8 +20,8 @@ class Training extends Component {
                         <Col md={3} />
                     </Row>
                     <Row className="Button-wrapper-wrap">
-                        <Col md={2}/>
-                        <Col md={8} className="Panel-wrapper">
+                        <Col md={1}/>
+                        <Col md={10} className="Panel-wrapper">
                             <PanelGroup
                                 accordion
                                 id="accordion-example">
@@ -31,44 +31,34 @@ class Training extends Component {
                                         <Panel.Title toggle>Session Packs</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        <div className="columns">
-                                            <ul className="price">
-                                                <li className="header">Basic</li>
-                                                <li className="grey">$ 9.99 / year</li>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <li className="Head">Basic</li>
+                                                <li className="Grey">$ 9.99 / year</li>
                                                 <li>10GB Storage</li>
-                                                <li>10 Emails</li>
-                                                <li>10 Domains</li>
-                                                <li>1GB Bandwidth</li>
+
                                             </ul>
                                         </div>
-                                        <div className="columns">
-                                            <ul className="price">
-                                                <li className="header">Basic</li>
-                                                <li className="grey">$ 9.99 / year</li>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <li className="Head">Basic</li>
+                                                <li className="Grey">$ 9.99 / year</li>
                                                 <li>10GB Storage</li>
-                                                <li>10 Emails</li>
-                                                <li>10 Domains</li>
-                                                <li>1GB Bandwidth</li>
                                             </ul>
                                         </div>
-                                        <div className="columns">
-                                            <ul className="price">
-                                                <li className="header">Basic</li>
-                                                <li className="grey">$ 9.99 / year</li>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <li className="Head">Basic</li>
+                                                <li className="Grey">$ 9.99 / year</li>
                                                 <li>10GB Storage</li>
-                                                <li>10 Emails</li>
-                                                <li>10 Domains</li>
-                                                <li>1GB Bandwidth</li>
+
                                             </ul>
                                         </div>
-                                        <div className="columns">
-                                            <ul className="price">
-                                                <li className="header">Basic</li>
-                                                <li className="grey">$ 9.99 / year</li>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <li className="Head">Basic</li>
+                                                <li className="Grey">$ 9.99 / year</li>
                                                 <li>10GB Storage</li>
-                                                <li>10 Emails</li>
-                                                <li>10 Domains</li>
-                                                <li>1GB Bandwidth</li>
                                             </ul>
                                         </div>
                                     </Panel.Body>
@@ -139,7 +129,7 @@ class Training extends Component {
                                 </Panel>
                             </PanelGroup>
                         </Col>
-                        <Col md={2}/>
+                        <Col md={1}/>
                     </Row>
                 </Grid>
             </div>
