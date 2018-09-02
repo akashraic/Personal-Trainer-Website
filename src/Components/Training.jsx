@@ -114,7 +114,7 @@ class Training extends Component {
                                         <Panel.Title toggle className="Title-Heading">Nutrition Guidance & Planning</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        <div className="Columns">
+                                        <div className="Column">
                                             <ul className="Price">
                                                 <div className="Pack-Heading"><li className="Head">Nutrition Guide</li></div>
                                                 <div className="Price-Tag"><li className="Grey">$ $100.00 (CAD)</li></div>
@@ -130,19 +130,19 @@ class Training extends Component {
                                 </Panel>
                                     <Panel eventKey="4">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="Title-Heading">Sample Program-One time Payment</Panel.Title>
+                                        <Panel.Title toggle className="Title-Heading">Sample Session Training (1-4 Week Samples Available)</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <div className="Pack-Heading"><li className="Head">Nutrition Guidance and Planning</li></div>
-                                                <div className="Price-Tag"><li className="Grey">$ 35.00 (CAD)</li></div>
+                                                <div className="Pack-Heading-lg"><li className="Head">Nutrition Guidance and Planning</li></div>
+                                                <div className="Price-Tag-lg"><li className="Grey">$ 35.00 (CAD)</li></div>
                                             </ul>
                                         </div>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <div className="Pack-Heading"><li className="Head">Session + Leg x Core Training Program</li></div>
-                                                <div className="Price-Tag"><li className="Grey">$ 300.00 (CAD)</li></div>
+                                                <div className="Pack-Heading-lg"><li className="Head">Session + Leg x Core Training Program</li></div>
+                                                <div className="Price-Tag-lg"><li className="Grey">$ 300.00 (CAD)</li></div>
                                                 <li>
                                                     This workout programming and session is for individuals who are looking to
                                                     keep up with their change of lifestyle. This program will focus on developing
@@ -157,37 +157,37 @@ class Training extends Component {
                                 </Panel>
                                 <Panel eventKey="5">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="Title-Heading">Sample Session Training (1-4 Weeks Samples Available)</Panel.Title>
-                                    </Panel.Heading>
-                                    <Panel.Body collapsible>
-                                        <div className="Column">
-                                            <ul className="Price">
-                                                <div className="Pack-Heading-lg"><li className="Head">Nutrition Guidance and Planning</li></div>
-                                                <div className="Price-Tag-lg"><li className="Grey">$ 100.00 (CAD)</li></div>
-                                                <li>
-                                                    This workout programming and nutrition guide is for individuals
-                                                    who are looking to start a change of lifestyle. This programming
-                                                    and nutrition guide will allow it's users to focus on losing
-                                                    weight, and being holistic about changing your lifestyle.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </Panel.Body>
-                                </Panel>
-                                <Panel eventKey="6">
-                                    <Panel.Heading>
                                         <Panel.Title toggle className="Title-Heading">Subscriptions</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
-                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                        labore sustainable VHS.
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <div className="Pack-Heading-lg"><li className="Head">Bi-Weekly Programming</li></div>
+                                                <div className="Price-Tag-lg"><li className="Grey">$ 38.00 (CAD)</li></div>
+                                                <li>
+                                                    Own It is a combination of strength and functional training that will boost
+                                                    your overall strength, and improve your body composition. If you are looking
+                                                    to gain more experience with strength training, and/or getting ready for any
+                                                    season! This is the program for you. Own it will provide you with self-anatomy
+                                                    knowledge and help you with boosting your work capacity through specific
+                                                    movements allowing you to stay ready all year long.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <div className="Pack-Heading-lg"><li className="Head">Monthly Programming</li></div>
+                                                <div className="Price-Tag-lg"><li className="Grey">$ 75.00 (CAD)</li></div>
+                                                <li>
+                                                    Aesthetically Strong A&S is a combination of strength and circuit
+                                                    training that will boost your overall strength, and improve your
+                                                    body composition. If you are looking to gain more experience with
+                                                    strength training, and/or getting ready for any season! This is the
+                                                    program for you. A&S works on boosting your work capacity through
+                                                    specific movements allowing you to stay ready all year long.
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </Panel.Body>
                                 </Panel>
                             </PanelGroup>
