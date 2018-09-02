@@ -61,12 +61,24 @@ p
 
 .Price .Pack-Heading
 {
-    padding: 5% 0% 5% 17.5%;
+    padding: 5% 0 5% 17.5%;
 }
 
 .Price .Price-Tag
 {
     padding: 0 0 0 22.5%;
+    margin: 0 auto;
+}
+
+.Price .Pack-Heading-lg
+{
+    padding: 5% 5% 5% 5%;
+}
+
+.Price .Price-Tag-lg
+{
+    margin: 0 auto;
+    padding: 0 0 0 25%;
 }
 
 /* List items */
