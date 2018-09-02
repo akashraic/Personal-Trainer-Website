@@ -16,6 +16,11 @@ p
     text-align: center;
 }
 
+.Title-Heading
+{
+    text-align:center;
+}
+
 .Columns
 {
     float:left;
@@ -33,26 +38,40 @@ p
 }
 
 /* Add shadows on hover */
-.Price:hover {
+.Price:hover
+{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
 /* Pricing header */
-.Price .Head {
+.Price .Head
+{
     background-color: #111;
     color: white;
     font-size: 25px;
 }
 
+.Price .Pack-Heading
+{
+    padding: 5% 0% 5% 17.5%;
+}
+
+.Price .Price-Tag
+{
+    padding: 0 0 0 22.5%;
+}
+
 /* List items */
-.Price li {
+.Price li
+{
     border-bottom: 1px solid #eee;
     padding: 10%;
     text-align: center;
 }
 
 /* Grey list item */
-.Price .Grey {
+.Price .Grey
+{
     background-color: #eee;
     font-size: 20px;
 }

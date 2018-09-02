@@ -24,48 +24,76 @@ class Training extends Component {
                         <Col md={10} className="Panel-wrapper">
                             <PanelGroup
                                 accordion
-                                id="accordion-example">
+                                id="accordion-example"
+                                defaultActiveKey="1">
 
                                 <Panel eventKey="1">
-                                    <Panel.Heading>
+                                    <Panel.Heading className="Title-Heading">
                                         <Panel.Title toggle>Session Packs</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <li className="Head">Basic</li>
-                                                <li className="Grey">$ 9.99 / year</li>
-                                                <li>10GB Storage</li>
+                                                <div className="Pack-Heading"><li className="Head">10 Sessions Pack</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ 550.00 (CAD)</li></div>
+                                                <li>
+                                                    The private coaching pack is a comprehensive plan for
+                                                    individuals who are getting ready to get started on
+                                                    achieving strength, and losing weight. This session pack
+                                                    outlines intense training sessions with the personal
+                                                    trainer you are signing up with. Please be advised that
+                                                    you are on your journey to become a better you!
+                                                </li>
 
                                             </ul>
                                         </div>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <li className="Head">Basic</li>
-                                                <li className="Grey">$ 9.99 / year</li>
-                                                <li>10GB Storage</li>
+                                                <div className="Pack-Heading"><li className="Head">15 Session Pack</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ 932.00 (CAD)</li></div>
+                                                <li>
+                                                    The private coaching pack is a comprehensive plan for
+                                                    individuals who are getting ready to get started on
+                                                    achieving strength, and losing weight. This session pack
+                                                    outlines intense training sessions with the personal
+                                                    trainer you are signing up with. Please be advised that
+                                                    you are on your journey to become a better you!
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <li className="Head">Basic</li>
-                                                <li className="Grey">$ 9.99 / year</li>
-                                                <li>10GB Storage</li>
-
+                                                <div className="Pack-Heading"><li className="Head">25 Sessions Pack</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ 1,130.00 (CAD)</li></div>
+                                                <li>
+                                                    The private coaching pack is a comprehensive plan for
+                                                    individuals who are getting ready to get started on
+                                                    achieving strength, and losing weight. This session pack
+                                                    outlines intense training sessions with the personal
+                                                    trainer you are signing up with. Please be advised that
+                                                    you are on your journey to become a better you!
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <li className="Head">Basic</li>
-                                                <li className="Grey">$ 9.99 / year</li>
-                                                <li>10GB Storage</li>
+                                                <div className="Pack-Heading"><li className="Head">5 Session Pack</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ 300.00 (CAD)</li></div>
+                                                <li>
+                                                    The private coaching pack is a comprehensive plan for
+                                                    individuals who are getting ready to get started on
+                                                    achieving strength, and losing weight. This session pack
+                                                    outlines intense training sessions with the personal
+                                                    trainer you are signing upwith. Please be advised that
+                                                    you are on your journey to become a better you!
+                                                </li>
                                             </ul>
                                         </div>
                                     </Panel.Body>
                                 </Panel>
                                 <Panel eventKey="2">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Sports Specific Private Sessions</Panel.Title>
+                                        <Panel.Title toggle className="Title-Heading">Sports Specific Private Sessions</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -81,7 +109,7 @@ class Training extends Component {
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Nutrition Guidance & Planning</Panel.Title>
+                                        <Panel.Title toggle className="Title-Heading">Nutrition Guidance & Planning</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -97,7 +125,7 @@ class Training extends Component {
                                 </Panel>
                                 <Panel eventKey="4">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Sample Session Training (1-4 Weeks Samples Available)</Panel.Title>
+                                        <Panel.Title toggle className="Title-Heading">Sample Session Training (1-4 Weeks Samples Available)</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -113,7 +141,7 @@ class Training extends Component {
                                 </Panel>
                                 <Panel eventKey="5">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Subscriptions</Panel.Title>
+                                        <Panel.Title toggle className="Title-Heading">Subscriptions</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
