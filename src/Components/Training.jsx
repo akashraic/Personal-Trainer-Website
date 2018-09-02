@@ -96,15 +96,17 @@ class Training extends Component {
                                         <Panel.Title toggle className="Title-Heading">Sports Specific Private Sessions</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
-                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                        labore sustainable VHS.
+                                        <div className="Column">
+                                            <ul className="Price">
+                                                <div className="Pack-Heading"><li className="Head">Session 8 Pack</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ 520.00 (CAD)</li></div>
+                                                <li>
+                                                    This weightlifting session pack is a one-on-one training program
+                                                    where trainer can provide a 50 min technique and strength workout
+                                                    with the client to improve weightlifting technique.
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </Panel.Body>
                                 </Panel>
                                 <Panel eventKey="3">
