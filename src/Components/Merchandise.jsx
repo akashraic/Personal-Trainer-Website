@@ -19,7 +19,7 @@ class Merchandise extends Component {
                     <Row className="Button-wrapper-wrap">
                     <Col md={3}/>
                     <Col md={6} className="Button-wrapper">
-                        <Button block>
+                        <Button block href="https://hussainbokhari.selz.com" target="_blank">
                             Continue to Store
                         </Button>
                     </Col>
