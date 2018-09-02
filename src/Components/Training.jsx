@@ -111,6 +111,25 @@ class Training extends Component {
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
+                                        <Panel.Title toggle className="Title-Heading">Nutrition Guidance & Planning</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        <div className="Columns">
+                                            <ul className="Price">
+                                                <div className="Pack-Heading"><li className="Head">Nutrition Guide</li></div>
+                                                <div className="Price-Tag"><li className="Grey">$ $100.00 (CAD)</li></div>
+                                                <li>
+                                                    This workout programming and nutrition guide is for individuals
+                                                    who are looking to start a change of lifestyle. This programming
+                                                    and nutrition guide will allow it's users to focus on losing weight,
+                                                    and being holistic about changing your lifestyle.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </Panel.Body>
+                                </Panel>
+                                    <Panel eventKey="4">
+                                    <Panel.Heading>
                                         <Panel.Title toggle className="Title-Heading">Sample Program-One time Payment</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
@@ -136,7 +155,7 @@ class Training extends Component {
                                         </div>
                                     </Panel.Body>
                                 </Panel>
-                                <Panel eventKey="4">
+                                <Panel eventKey="5">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="Title-Heading">Sample Session Training (1-4 Weeks Samples Available)</Panel.Title>
                                     </Panel.Heading>
@@ -155,7 +174,7 @@ class Training extends Component {
                                         </div>
                                     </Panel.Body>
                                 </Panel>
-                                <Panel eventKey="5">
+                                <Panel eventKey="6">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="Title-Heading">Subscriptions</Panel.Title>
                                     </Panel.Heading>
