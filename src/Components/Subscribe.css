@@ -26,5 +26,32 @@ p
     margin: 0 auto;
 }
 
+.Form-class input
+{
+    margin: 2% 2% 2% 2%;
+}
+
+.msg-alert p
+{
+    margin: 0 auto;
+    padding: 5% 20% 0 2%;
+}
+
+button
+{
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+button:hover
+{
+    background-color: #f8f8f8;
+    -webkit-transition: prop 0.2s;
+    -moz-transition: prop 0.2s;
+    -o-transition: prop 0.2s;
+    transition: prop 0.2s;
+}
+
+
 
 
