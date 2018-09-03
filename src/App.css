@@ -19,16 +19,12 @@
 .headroom--pinned {
     position: fixed;
     transform: translateY(-100%);
-
-
-
 }
 
 @media screen and (min-height: 0px) and (max-height: 300px) {
 
 .headroom{
     display:none
-
 ;
 }
 }

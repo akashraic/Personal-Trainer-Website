@@ -15,13 +15,13 @@ class Subscribe extends Component {
                     <Row className="Description-wrapper">
                         <Col md={3} />
                         <Col className="Description" md={6}>
-                            <p className="Video-description">Subscribe to get access to more videos</p>
+                            <p className="Video-description">Want to stay updated, and be a part of the community. Don't forget to subscribe</p>
                         </Col>
                         <Col md={3} />
                     </Row>
                     <Row className="Field-wrapper-wrap">
-                        <Col md={1} />
-                        <Col className="Form-Wrapper" md={10}>
+                        <Col md={2} />
+                        <Col className="Form-Wrapper" md={8}>
                             <Mailchimp
                             action='https://facebook.us19.list-manage.com/subscribe/post?u=f63cb56768fba0c0f62eb7e2b&amp;id=01f405136b'
                             fields={[
@@ -66,7 +66,7 @@ class Subscribe extends Component {
                                 {/*<Button type="submit">Subscribe</Button>*/}
                             {/*</Form>*/}
                         </Col>
-                        <Col md={1} />
+                        <Col md={2} />
                     </Row>
                 </Grid>
 
