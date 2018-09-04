@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-import { Link } from 'react-router-dom';
 import  {Grid, Row, Col} from 'react-bootstrap';
 import './Videos.css';
 

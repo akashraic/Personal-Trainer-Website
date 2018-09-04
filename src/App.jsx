@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
 import './App.css';
 import Navbar from './Components/CustomNavbar'
 import Home from './Components/Home';
@@ -33,8 +32,6 @@ class App extends Component {
           </ScrollableAnchor>
 
           <Headroom
-              onPin={() => console.log('pinned')}
-              onUnpin={() => console.log('unpinned')}
               style={{
                   transition: 'all .5s ease-in-out'
               }}

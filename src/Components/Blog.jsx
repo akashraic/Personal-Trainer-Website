@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player';
-import { Link } from 'react-router-dom';
 import {Grid, Row, Col, Button, ResponsiveEmbed} from 'react-bootstrap';
 import './Blog.css';
 
