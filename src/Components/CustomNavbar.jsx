@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
-import {BrowserRouter as Router ,Route} from 'react-router-dom';
+
 
 export default class CustomNavbar extends Component {
 
-    componentDidMount()
-    {
+    componentDidMount() {
 
     }
 
@@ -17,7 +15,7 @@ export default class CustomNavbar extends Component {
                     <Navbar.Brand>
                         <a href="Home">Holistic Bodies </a>
                     </Navbar.Brand>
-                    <Navbar.Toggle />
+                    <Navbar.Toggle/>
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>

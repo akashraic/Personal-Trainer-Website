@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import  {Grid, Row, Col, Image, Nav, NavItem} from 'react-bootstrap';
+import  {Grid, Row, Col, Image} from 'react-bootstrap';
 import './About.css';
 
 
