@@ -135,7 +135,7 @@ class Training extends Component {
                                     <Panel.Body collapsible>
                                         <div className="Columns">
                                             <ul className="Price">
-                                                <div className="Pack-Heading-lg"><li className="Head">Nutrition Guidance and Planning</li></div>
+                                                <div className="Pack-Heading-lg"><li className="Head">Nutrition Guidance & Planning</li></div>
                                                 <div className="Price-Tag-lg"><li className="Grey">$ 35.00 (CAD)</li></div>
                                             </ul>
                                         </div>

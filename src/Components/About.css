@@ -43,3 +43,12 @@ p
     height: 50%;
     width:50%;
 }
+
+@media screen and (max-width: 479px) {
+
+    .person{
+        display: block;
+        margin:0 auto;
+        padding: 2% 2% 2% 2%;
+    }
+}

@@ -26,6 +26,7 @@ p
     margin: 0 auto;
     width: 50%;
     padding: 1%;
+    position: relative;
 }
 
 .Columns
@@ -34,6 +35,7 @@ p
     float:left;
     width: 50%;
     padding: 1%;
+    position: relative;
 }
 
 .Price
@@ -44,6 +46,7 @@ p
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+
 
 /* Add shadows on hover */
 .Price:hover
@@ -61,12 +64,12 @@ p
 
 .Price .Pack-Heading
 {
-    padding: 5% 0 5% 17.5%;
+    padding: 5% 10% 5% 21%;
 }
 
 .Price .Price-Tag
 {
-    padding: 0 0 0 22.5%;
+    padding: 0 0 0 25%;
     margin: 0 auto;
 }
 
@@ -96,8 +99,46 @@ p
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 479px) {
+
+    .Columns
+    {
+        padding: 1% 1% 1% 1%;
+        position: relative;
+    }
+
     .Columns .Column{
         width: 100%;
+    }
+
+    .Pack-Heading {
+        align-items: center;
+    }
+
+    .Price .Pack-Heading
+    {
+        padding: 5% 5% 5% 5%;
+        text-align:center;
+    }
+
+    .Price .Pack-Heading-lg
+    {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        word-wrap: break-word;
+        padding: 5% 3% 5% 3%;
+    }
+
+    .Price .Price-Tag{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+
+    }
+    .Price .Price-Tag-lg{
+        margin: 0 auto;
+        padding: 0 5% 5% 5%;
+
     }
 }

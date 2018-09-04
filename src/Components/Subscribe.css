@@ -58,6 +58,7 @@ button:hover
     .Form-class{
         margin: 0 auto;
         text-align: center;
+        padding: 0 0 2% 2%;
     }
 
     .Form-class button
