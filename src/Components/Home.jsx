@@ -54,7 +54,7 @@ class Home extends Component {
                     <Col xs={10} className="Video-wrapper">
                         <ReactPlayer
                         className="player"
-                        url="assests/intro.mp4"
+                        url="assests/LandingPageVideo.mp4"
                         width="100%"
                         height="100%"
                         controls />
