@@ -20,7 +20,7 @@ class Home extends Component {
                         <h1 className="Head-1">Holistic</h1>
                     </Col>
                     <Col className="Logo-wrapper" md={2} xs={4}>
-                        <Image src="assests/Main_Logo.png" circle className="logo"/>
+                        <Image src="/public/assests/Main_Logo.png" circle className="logo"/>
                     </Col>
                     <Col className="Head-wrap-2" md={2} xs={4}>
                         <h1 className="Head-2">Bodies</h1>
