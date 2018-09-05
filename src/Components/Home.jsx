@@ -8,7 +8,7 @@ import {goToTop, removeHash} from 'react-scrollable-anchor'
 class Home extends Component {
     componentWillMount() {
         removeHash();
-        goToTop();
+         goToTop();
     }
 
     render() {
